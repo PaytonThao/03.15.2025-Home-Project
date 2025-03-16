@@ -1,0 +1,26 @@
+#add all changes to be saved
+git add .
+
+#save changes with message 
+git commit -m "message"
+
+#push changes to github master
+git push origin  master
+
+#push changes to github new-branch
+git push origin new-branch
+
+#pull changes from github master
+git pul origin master
+
+#create new branch
+git checkout -b new-branch
+
+#check status or changes
+git status
+
+#see all previous changes
+git log
+
+#travel back to old commit
+git checkout *commit hash*
